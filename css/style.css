@@ -1,0 +1,100 @@
+/*selectores*/
+/*selectores por etiquetas*/
+h1{
+    color:black;
+}
+h2{
+    color:black;
+}          
+h3{
+    color:blueviolet;
+}
+h4{
+    color:black;
+}
+h5{
+    color:black;
+}
+@font-face {
+    font-family: "letra";
+    src: url("../assets/letra.ttf");
+}
+p{
+    font-family: "letra", monospace;
+}
+div{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+body{
+    background-image: url(../assets/fondo13.jpg);
+}
+/* box model*/
+div{
+    width: auto;
+    height: auto;
+}
+header{
+   background-color: none (74,74, 156);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+   margin: 0 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    margin-left: 15px;
+    
+
+}
+html{
+    font-size: 62,5%;
+}
+header{
+    display: flex;
+    flex-direction: row; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+form{
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-radius: 5px;
+}
+input{
+    font-size: 1rem;
+    background-color: #ededed;
+    border: none;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-top-right-radius: 0;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+$grid-columns:      12;
+$grid-gutter-width: 1.5rem;
+$grid-row-columns:  6;
